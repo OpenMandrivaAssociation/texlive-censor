@@ -1,3 +1,9 @@
+# revision 20937
+# category Package
+# catalog-ctan /macros/latex/contrib/censor
+# catalog-date 2011-01-04 21:24:54 +0100
+# catalog-license lppl1.3
+# catalog-version 1.00
 Name:		texlive-censor
 Version:	1.00
 Release:	1
@@ -43,6 +49,7 @@ information.
 %doc %{_texmfdistdir}/doc/latex/censor/censor.pdf
 %doc %{_texmfdistdir}/doc/latex/censor/censor.tex
 %doc %{_texmfdistdir}/doc/latex/censor/manifest.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ information.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
