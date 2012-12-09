@@ -1,12 +1,12 @@
-# revision 27638
+# revision 20937
 # category Package
 # catalog-ctan /macros/latex/contrib/censor
-# catalog-date 2012-09-10 12:31:33 +0200
+# catalog-date 2011-01-04 21:24:54 +0100
 # catalog-license lppl1.3
-# catalog-version 2.10
+# catalog-version 1.00
 Name:		texlive-censor
-Version:	2.10
-Release:	1
+Version:	1.00
+Release:	2
 Summary:	Facilities for controlling restricted text in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/censor
@@ -39,6 +39,7 @@ information.
 %doc %{_texmfdistdir}/doc/latex/censor/README
 %doc %{_texmfdistdir}/doc/latex/censor/censor.pdf
 %doc %{_texmfdistdir}/doc/latex/censor/censor.tex
+%doc %{_texmfdistdir}/doc/latex/censor/manifest.txt
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +50,18 @@ information.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.00-2
++ Revision: 750050
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.00-1
++ Revision: 718027
+- texlive-censor
+- texlive-censor
+- texlive-censor
+- texlive-censor
+- texlive-censor
+
