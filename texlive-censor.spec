@@ -6,7 +6,7 @@
 # catalog-version 3.21
 Name:		texlive-censor
 Version:	3.21
-Release:	7
+Release:	8
 Summary:	Facilities for controlling restricted text in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/censor
