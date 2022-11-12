@@ -1,18 +1,12 @@
-# revision 31332
-# category Package
-# catalog-ctan /macros/latex/contrib/censor
-# catalog-date 2013-07-31 09:50:54 +0200
-# catalog-license lppl1.3
-# catalog-version 3.21
 Name:		texlive-censor
-Version:	3.22
+Version:	63126
 Release:	1
 Summary:	Facilities for controlling restricted text in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/censor
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/censor.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/censor.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/censor.r63126.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/censor.doc.r63126.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ information, etc. The package can "redact" anything that can be
 enclosed by a LaTeX box.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -41,7 +35,7 @@ enclosed by a LaTeX box.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
