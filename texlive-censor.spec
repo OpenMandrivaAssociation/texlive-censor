@@ -1,6 +1,6 @@
 Name:		texlive-censor
 Version:	63126
-Release:	1
+Release:	2
 Summary:	Facilities for controlling restricted text in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/censor
