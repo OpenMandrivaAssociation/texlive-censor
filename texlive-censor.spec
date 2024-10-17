@@ -3,7 +3,7 @@ Version:	67293
 Release:	1
 Summary:	Facilities for controlling restricted text in a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/censor
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/censor
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/censor.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/censor.doc.r%{version}.tar.xz
