@@ -1,5 +1,5 @@
 Name:		texlive-censor
-Version:	67293
+Version:	74794
 Release:	1
 Summary:	Facilities for controlling restricted text in a document
 Group:		Publishing
